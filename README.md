@@ -11,6 +11,14 @@ The change list is sorted and doesn't have duplicates.
     dependencies = {
         { 'amiroslaw/telescope-jumps.nvim' },
     },
+    opts = {
+        extensions = {
+            jumps = {
+                max_results = 5, -- default is nil
+                line_distance = 5 -- default is nil
+            },
+        },
+    },
 },
 ```
 
